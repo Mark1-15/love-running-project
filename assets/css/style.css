@@ -8,6 +8,21 @@
     box-sizing: border-box;
 }
 
+/* Font styles */
+/* Lato font */
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  /* Oswald font */
+  .oswald {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -40,6 +55,20 @@ h1 {
     color: #252525;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+  }
+
+#menu > li {
+    margin-bottom: 1em;
+  }
+
+  .active {
+    border-bottom: 1px solid #3a3a3a;
+  }
+
 /* Main content */
 main {
     background-color: lightblue;
@@ -52,16 +81,3 @@ footer {
     background-color: orange;
 }
 
-/* Lato font */
-.lato-light {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  /* Oswald font */
-  .oswald {
-    font-family: "Oswald", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
